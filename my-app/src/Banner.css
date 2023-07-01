@@ -1,0 +1,51 @@
+.banner {
+    background: url("./penthouse.jpg") center center;
+    background-position-x: 100%;
+    background-repeat: no-repeat;
+    height: 50vh;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .banner__info {
+      background-color: black;
+      color: white;
+      padding-top: 20vh;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-bottom: 40px;
+      width: 300px;
+  }
+  
+  .banner__search {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .banner__searchButton {
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #bea657!important;
+    border-color: #bea657 !important;
+  }
+  
+  .banner__info > button {
+      background-color: #bea657;
+      color: white;
+      border-color: grey;
+      text-transform: inherit;
+      margin-top: 20px;
+      font-weight: 600;
+  }
+  
+  .banner__info > button:hover {
+      background-color: white;
+      color: #bea657;
+    
+    }
+    
+  
+  .banner__info > h5 {
+      margin-top:10px;
+  }
